@@ -1,6 +1,6 @@
 // Service worker de R.J Trabajos: deja la app abrible sin señal.
 // Los datos los maneja Firestore (con su propia caché); acá solo se guardan los archivos de la app.
-const CACHE = 'rj-v2';
+const CACHE = 'rj-v3';
 const SHELL = [
   './',
   './index.html',
