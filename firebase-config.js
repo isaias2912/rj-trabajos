@@ -13,4 +13,11 @@
 //   appId: "1:1234567890:web:abcdef"
 // };
 
-export const firebaseConfig = null;
+export const firebaseConfig = {
+  apiKey: "AIzaSyAvGOhY7xbr97Px1Q8Lt2t3AnM55jZpvII",
+  authDomain: "rj-trabajos.firebaseapp.com",
+  projectId: "rj-trabajos",
+  storageBucket: "rj-trabajos.firebasestorage.app",
+  messagingSenderId: "444605324392",
+  appId: "1:444605324392:web:d3f94036e981a33df06fdd"
+};
