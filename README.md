@@ -54,7 +54,7 @@ La primera vez cada socio entra con su email y contraseña. Después queda abier
 | `firebase-config.js` | Los datos del proyecto de Firebase (se completan en el paso 1.7). |
 | `precios-iniciales.js` | Socios, contacto y lista de precios con la que arranca la app la primera vez. |
 | `firestore.rules` | Reglas de seguridad para pegar en Firebase. |
-| `manifest.webmanifest`, `sw.js`, `icons/` | Lo que la hace instalable y abrible sin señal. |
+| `manifest.webmanifest`, `sw.js`, íconos `.png` | Lo que la hace instalable y abrible sin señal. |
 
 ## Cómo se calcula el reparto
 

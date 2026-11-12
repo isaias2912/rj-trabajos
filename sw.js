@@ -1,6 +1,6 @@
 // Service worker de R.J Trabajos: deja la app abrible sin señal.
 // Los datos los maneja Firestore (con su propia caché); acá solo se guardan los archivos de la app.
-const CACHE = 'rj-v1';
+const CACHE = 'rj-v2';
 const SHELL = [
   './',
   './index.html',
@@ -8,9 +8,9 @@ const SHELL = [
   './firebase-config.js',
   './precios-iniciales.js',
   './manifest.webmanifest',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/apple-touch-icon.png'
+  './icon-192.png',
+  './icon-512.png',
+  './apple-touch-icon.png'
 ];
 
 self.addEventListener('install', (e) => {
