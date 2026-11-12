@@ -1,0 +1,16 @@
+rules_version = '2';
+
+// Solo los dos socios de R.J pueden leer y escribir.
+// Reemplazá los dos emails por los que usaron al crear los usuarios en Authentication
+// y pegá este texto en Firebase → Firestore Database → Reglas → Publicar.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function esSocio() {
+      return request.auth != null
+        && request.auth.token.email in ['EMAIL_DE_MAUCO', 'EMAIL_DE_JAVIER'];
+    }
+    match /{document=**} {
+      allow read, write: if esSocio();
+    }
+  }
+}
